@@ -1,0 +1,38 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #f5f5f5;
+}
+main {
+  margin: 10vw 20vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main-txt {
+  font-size: 2.5rem;
+  margin-bottom: 3vw;
+  color: rgba(0, 77, 77, 1);
+  text-shadow: 3px 3px rgba(0, 128, 128, 0.406);
+}
+#input {
+  width: 100%;
+  padding: 1vw 58px;
+  font-size: 1.5rem;
+  border-radius: 50px;
+  background: left no-repeat url("img/search.jpg");
+  background-size: 55px;
+}
+#button {
+  margin-top: 3rem;
+  padding: 1vw 2vw;
+  width: 20vw;
+  font-size: 1.5rem;
+  border-radius: 50px;
+  background-color: rgba(0, 77, 77, 1);
+  color: white;
+  cursor: pointer;
+}
